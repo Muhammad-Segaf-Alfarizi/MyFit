@@ -5,7 +5,7 @@ MyFit adalah sebuah web yang dirancang agar dapat membantu pengguna dalam memili
 
 **Frontend**
 
-UI (Framework?)
+UI (Framework? Bootstrap v5?)
 - Login Page - Ega
 - Signup Page - Ega
 - Lupa PW Page - Ega
