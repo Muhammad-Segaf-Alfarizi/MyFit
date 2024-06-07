@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .trending-section {
+            background-color: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+        }
+        .creator-ideas {
+            display: flex;
+            overflow-x: scroll;
+        }
+        .creator-ideas .card {
+            min-width: 200px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Search Bar -->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MyFit</a>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Cari di MyFit" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Trending Section -->
+    <div class="trending-section">
+        <h5>Yang lagi tren</h5>
+        <h2>Motif minggu ini: Pesta</h2>
+        <div class="d-flex justify-content-center">
+            <img src="Kondangan atas.JPEG" class="img-fluid" alt="Trending Image">
+        </div>
+    </div>
+
+    <!-- Creator Ideas -->
+    <div class="container mt-4">
+        <h5>Ide dari kreator</h5>
+        <div class="creator-ideas">
+            <div class="card">
+                <img src="Kondangan 1.JPEG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Content 1</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Kondangan 2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Content 2</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="Kondangan 3.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Content 3</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
