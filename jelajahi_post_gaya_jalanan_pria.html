@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jelajahi Postingan gaya jalanan pria</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .post-card {
+            position: relative;
+            overflow: hidden;
+            height: 300px; /* Adjusted height for larger images */
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            color: white;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        .post-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.3);
+            transition: background 0.3s;
+        }
+        .post-card:hover::before {
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .post-title {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 1.2rem;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-dark text-light">
+
+    <div class="container mt-4">
+        <h5>Jelajahi Postingan gaya jalanan pria</h5>
+        <div class="row g-2">
+            <div class="col-12 col-md-6">
+                <a href="post page.html" class="text-decoration-none">
+                    <div class="post-card" style="background-image: url('images/Hoodie-dan-Celana-Striped.jpg');"></div>
+                    <p class="post-title">Hoodie dan Celana Striped</p>
+                </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <a href="post page.html" class="text-decoration-none">
+                    <div class="post-card" style="background-image: url('images/Jaket-Denim-dan-Celana-Chino.jpg');"></div>
+                    <p class="post-title">Jaket Denim dan Celana Chino</p>
+                </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <a href="post page.html" class="text-decoration-none">
+                    <div class="post-card" style="background-image: url('images/Kemeja-Flanel-dan-Celana-Jeans.jpg');"></div>
+                    <p class="post-title">Kemeja Flanel dan Celana Jeans</p>
+                </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <a href="post page.html" class="text-decoration-none">
+                    <div class="post-card" style="background-image: url('images/Knit-Vest-dan-Celana-Kulot.jpg');"></div>
+                    <p class="post-title">Knit Vest dan Celana Kulot</p>
+                </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <a href="post page.html" class="text-decoration-none">
+                    <div class="post-card" style="background-image: url('images/Setelan-Blazer-dan-Kaos-Bergaris.jpg');"></div>
+                    <p class="post-title">Setelan Blazer dan Kaos Bergaris</p>
+                </a>
+            </div>
+            <div class="col-12 col-md-6">
+                <a href="post page.html" class="text-decoration-none">
+                    <div class="post-card" style="background-image: url('images/Striped-Shirt-dan-Celana-Jeans.jpg');"></div>
+                    <p class="post-title">Striped Shirt dan Celana Jeans</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
